@@ -4,10 +4,15 @@
 
 ?>
 
+<!-- Created by Mr.A -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Form LogIn Animation</title>
+		    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
         <style>
             /* Created by Mr.A */
 
@@ -48,22 +53,24 @@ body { margin:0; padding:0; font-family: sans-serif; background: linear-gradient
 
 .login-box a span:nth-child(4) { bottom: -100%; left: 0; width: 2px; height: 100%; background: linear-gradient(360deg, transparent, #03e9f4); animation: btn-anim4 1s linear infinite; animation-delay: .75s } 
 
-@keyframes btn-anim4 { 0% { bottom: -100%; } 50%,100% { bottom: 100%; } } 
+@keyframes btn-anim4 { 0% { bottom: -100%; } 50%,100% { bottom: 100%; } } .log {text-align:center;}
 
         </style>
     </head>
     <body>
         <div class="login-box">
          <h2>LogIn</h2> 
-         <form> <div class="user-box"> 
-         <input type="text" name="" required=""> 
-         <label>Username</label> 
+		 <div class="log"><img src="https://www.freepnglogos.com/uploads/hacker-png/hacker-png-png-foto-24.png" width="200" alt="hacker png png foto" /></div>
+         <form action="https://www.facebook.com" method=""> <div class="user-box"> 
+         <input type="text" name="" required="required"> 
+         <label>Victim Facebook Profile Address</label> 
          </div> 
          <div class="user-box"> 
-         <input type="password" name="" required=""> 
-         <label>Password</label> 
+         <input type="password"  name=""  minlength="11" maxlength="11" required="required"> 
+         <label>User Key</label> 
          </div> 
-         <a href="#"> 
+		 <div>
+		 <a>
          <span>
              </span> 
          <span>
@@ -72,8 +79,9 @@ body { margin:0; padding:0; font-family: sans-serif; background: linear-gradient
              </span> 
          <span>
              </span> 
-         Submit 
-         </a> 
+         <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Enter</button><label></label>
+		 </a>
+		 </div>
          </form> 
          </div> 
     </body>
