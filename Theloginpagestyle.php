@@ -1,4 +1,8 @@
-<!-- Created by Mr.A -->
+<?php
+
+    include 'logic.php';
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
